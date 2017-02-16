@@ -13,7 +13,7 @@
         <!--WildFun-->
         <scene sceneID="1kl-Ys-Xmb">
             <objects>
-                <tableViewController id="k9u-bu-Nek" customClass="MainTableViewController" customModule="Firebase_102" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="k9u-bu-Nek" customClass="MainTableViewController" customModule="WildFun" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="RFs-G2-3t6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -105,7 +105,7 @@
         <!--Parties-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="9pv-A4-QxB" customClass="PartiesViewController" customModule="Firebase_102" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="9pv-A4-QxB" customClass="PartiesViewController" customModule="WildFun" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
                         <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
@@ -160,7 +160,6 @@
                             <constraint firstItem="RH6-ie-RP7" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" id="qzg-Hd-zG3"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Parties" image="first" id="acW-dT-cKf"/>
                     <navigationItem key="navigationItem" title="Parties" id="mKw-1s-lfI">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="HMv-1U-a71">
                             <connections>
@@ -179,7 +178,7 @@
         <!--Party-->
         <scene sceneID="7FW-pi-kvi">
             <objects>
-                <tableViewController id="uTu-gs-dhC" customClass="PartyDescriptionTableViewController" customModule="Firebase_102" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="uTu-gs-dhC" customClass="PartyDescriptionTableViewController" customModule="WildFun" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="bug-uh-aoC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -292,13 +291,13 @@
         <!--Images-->
         <scene sceneID="o4m-GQ-75X">
             <objects>
-                <tableViewController title="Images" id="acw-QB-XqS" customClass="PartyImagesTableViewController" customModule="Firebase_102" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Images" id="acw-QB-XqS" customClass="PartyImagesTableViewController" customModule="WildFun" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="218" sectionHeaderHeight="28" sectionFooterHeight="28" id="0Dt-qU-sZX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" rowHeight="375" id="7CQ-JA-y6H" customClass="ImageTableViewCell" customModule="Firebase_102" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" rowHeight="375" id="7CQ-JA-y6H" customClass="ImageTableViewCell" customModule="WildFun" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="375"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7CQ-JA-y6H" id="kmS-yC-4tk">
@@ -345,7 +344,7 @@
         <!--Friends-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="8rJ-Kc-sve" customClass="FriendsViewController" customModule="Firebase_102" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="8rJ-Kc-sve" customClass="FriendsViewController" customModule="WildFun" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
                         <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
@@ -397,7 +396,6 @@
                             <constraint firstItem="gzF-IJ-igK" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" id="qi9-mV-0OZ"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Friends" image="second" id="cPa-gy-q4n"/>
                     <navigationItem key="navigationItem" title="Friends" id="QTC-3U-guc">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="VGS-K7-KVU">
                             <connections>
@@ -416,7 +414,7 @@
         <!--Enter email address-->
         <scene sceneID="uqm-Sp-EZp">
             <objects>
-                <tableViewController id="yyq-fw-eah" customClass="AddFriendTableViewController" customModule="Firebase_102" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="yyq-fw-eah" customClass="AddFriendTableViewController" customModule="WildFun" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Rhj-4m-45w">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -480,7 +478,7 @@
         <!--Messages-->
         <scene sceneID="iFa-ay-jiR">
             <objects>
-                <viewController title="Messages" automaticallyAdjustsScrollViewInsets="NO" id="dkG-57-Mk1" customClass="MessagesViewController" customModule="Firebase_102" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Messages" automaticallyAdjustsScrollViewInsets="NO" id="dkG-57-Mk1" customClass="MessagesViewController" customModule="WildFun" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="U1K-vJ-efZ"/>
                         <viewControllerLayoutGuide type="bottom" id="XXh-hw-2jW"/>
@@ -562,7 +560,7 @@
         <!--Login View Controller-->
         <scene sceneID="TC3-m2-eGO">
             <objects>
-                <viewController id="xba-zo-RyV" customClass="LoginViewController" customModule="Firebase_102" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="xba-zo-RyV" customClass="LoginViewController" customModule="WildFun" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="OfH-ci-du1"/>
                         <viewControllerLayoutGuide type="bottom" id="gel-Av-XU7"/>
@@ -630,7 +628,7 @@
         <!--Friends-->
         <scene sceneID="vL0-LG-ua1">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="fI4-JO-2BX" customClass="PartyInvitesTableViewController" customModule="Firebase_102" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="fI4-JO-2BX" customClass="PartyInvitesTableViewController" customModule="WildFun" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="pGi-BP-fLN"/>
                         <viewControllerLayoutGuide type="bottom" id="9jC-IC-Ks2"/>
@@ -701,7 +699,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="first" width="30" height="30"/>
         <image name="second" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
