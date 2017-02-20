@@ -29,7 +29,6 @@
 		B82F2F271E55A0CC0090AD34 /* PartyInvitesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82F2F1D1E55A0CC0090AD34 /* PartyInvitesTableViewController.swift */; };
 		B82F2F2A1E55A1060090AD34 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B82F2F291E55A1060090AD34 /* GoogleService-Info.plist */; };
 		B868CF3C1E559216005728B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B868CF3B1E559216005728B0 /* AppDelegate.swift */; };
-		B868CF3E1E559216005728B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B868CF3D1E559216005728B0 /* ViewController.swift */; };
 		B868CF411E559216005728B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B868CF3F1E559216005728B0 /* Main.storyboard */; };
 		B868CF431E559216005728B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B868CF421E559216005728B0 /* Assets.xcassets */; };
 		B868CF461E559216005728B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B868CF441E559216005728B0 /* LaunchScreen.storyboard */; };
@@ -59,7 +58,6 @@
 		B82F2F291E55A1060090AD34 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B868CF381E559216005728B0 /* WildFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WildFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B868CF3B1E559216005728B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B868CF3D1E559216005728B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B868CF401E559216005728B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B868CF421E559216005728B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B868CF451E559216005728B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -163,7 +161,6 @@
 				B82F2F131E55A0BC0090AD34 /* Extensions */,
 				B82F2F0E1E55A0A70090AD34 /* Models */,
 				B868CF3B1E559216005728B0 /* AppDelegate.swift */,
-				B868CF3D1E559216005728B0 /* ViewController.swift */,
 				B868CF3F1E559216005728B0 /* Main.storyboard */,
 				B868CF421E559216005728B0 /* Assets.xcassets */,
 				B868CF441E559216005728B0 /* LaunchScreen.storyboard */,
@@ -307,7 +304,6 @@
 				B82F2F211E55A0CC0090AD34 /* LoginViewController.swift in Sources */,
 				B82F2F241E55A0CC0090AD34 /* PartiesViewController.swift in Sources */,
 				B82F2F221E55A0CC0090AD34 /* MainTableViewController.swift in Sources */,
-				B868CF3E1E559216005728B0 /* ViewController.swift in Sources */,
 				B82F2F071E55A0A10090AD34 /* CurrentUser.swift in Sources */,
 				B82F2F111E55A0B40090AD34 /* AlertController-Extension.swift in Sources */,
 				B82F2F121E55A0B40090AD34 /* UIImage-Extension.swift in Sources */,
