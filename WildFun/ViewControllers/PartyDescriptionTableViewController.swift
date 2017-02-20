@@ -110,7 +110,7 @@ class PartyDescriptionTableViewController: UITableViewController {
             }
         }
         
-        if self.mode == .readOnly {
+        if identifier == "inviteFriends" && self.mode == .readOnly {
             let alert = UIAlertController.withMessage(message: "You can't invite friends because you are not the host of this party.")
             self.present(alert, animated: true, completion: nil)
             self.tableView.reloadData()
