@@ -52,8 +52,13 @@ class PartiesViewController: UIViewController {
                     if let reference = createFirebaseReference(components: [FirebasePaths.parties.rawValue, key]) {
                         reference.queryOrderedByKey().observe(.value, with: { snapshot in
                             if let party = Party(snapshot: snapshot) {
-                                self.ownedParties.append(party)
-                                self.tableView.reloadData()
+                                
+                                let filteredArray = self.ownedParties.filter({ $0.partyKey == party.partyKey })
+                                
+                                if filteredArray.count == 0 {
+                                    self.ownedParties.append(party)
+                                    self.tableView.reloadData()
+                                }
                             }
                         })
                         
@@ -68,8 +73,13 @@ class PartiesViewController: UIViewController {
                     if let reference = createFirebaseReference(components: [FirebasePaths.parties.rawValue, key]) {
                         reference.queryOrderedByKey().observe(.value, with: { snapshot in
                             if let party = Party(snapshot: snapshot) {
-                                self.attendingParties.append(party)
-                                self.tableView.reloadData()
+                                
+                                let filteredArray = self.attendingParties.filter({ $0.partyKey == party.partyKey })
+                                
+                                if filteredArray.count == 0 {
+                                    self.attendingParties.append(party)
+                                    self.tableView.reloadData()
+                                }
                             }
                         })
                         
